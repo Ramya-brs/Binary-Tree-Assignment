@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 100px;
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 10px solid palevioletred;
+    background: url("../img/background.jpeg");
+    background-size: cover;
+    color:#ccc;
+    font-weight: 1500;
+    font-size: 15px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+#treeInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:palevioletred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
